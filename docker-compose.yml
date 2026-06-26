@@ -1,0 +1,6 @@
+services:
+  mapty:
+    build: .
+    container_name: mapty-app
+    ports:
+      - "8080:80"
